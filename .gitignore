@@ -1,0 +1,48 @@
+# KiCad backup files
+*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.bak
+*.bck
+*-backups
+*-cache*
+
+# Local project settings and caches
+*.kicad_prl
+fp-info-cache
+~*.lck
+#auto_saved_files#
+
+# Temporary and autosave files
+*.000
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+_autosave-*
+*~
+~*
+
+# Netlist and autorouter files (exported)
+*.net
+*.dsn
+*.ses
+
+# Exported BOM and fabrication outputs
+*.xml
+*.csv
+*.tsv
+*.pos
+*.gbr
+*.drl
+*.zip
+gerbers/
+output/
+fabrication/
+jlcpcb/
+
+# Local git-based history (KiCad 9.0+)
+.history
+
+# System files (optional)
+.DS_Store
+Thumbs.db   
